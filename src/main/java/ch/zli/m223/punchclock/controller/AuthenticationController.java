@@ -25,6 +25,11 @@ public class AuthenticationController {
     @Inject
     UserService userService;
 
+    
+    /** 
+     * @param user
+     * @return int
+     */
     @POST
     @Consumes(MediaType.APPLICATION_JSON)
     @Operation(summary = "Signup", description = "")
@@ -32,6 +37,11 @@ public class AuthenticationController {
        return userService.signupUser(user);
     }
 
+    
+    /** 
+     * @param user
+     * @return Response
+     */
     @POST
     @Path("/login")
     @Consumes(MediaType.APPLICATION_JSON)
@@ -40,6 +50,11 @@ public class AuthenticationController {
        return userService.loginUser(user);
     }
 
+    
+    /** 
+     * @param myToken
+     * @return int
+     */
     @POST
     @Path("/login/check")
     @Consumes(MediaType.APPLICATION_JSON)

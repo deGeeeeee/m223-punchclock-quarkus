@@ -29,6 +29,10 @@ public class CategoryController {
     @Inject
     CategoryService categoryService;
 
+    
+    /** 
+     * @return List<Category>
+     */
     @GET
     @Produces(MediaType.APPLICATION_JSON)
     @Operation(summary = "List all Categories", description = "")
@@ -36,6 +40,11 @@ public class CategoryController {
         return categoryService.findAll();
     }
 
+    
+    /** 
+     * @param name
+     * @return Category
+     */
     @POST
     @Produces(MediaType.APPLICATION_JSON)
     @Path("/{name}")

@@ -31,6 +31,10 @@ public class UserController {
     @Inject
     UserService userService;
 
+    
+    /** 
+     * @return List<User>
+     */
     @GET
     @Produces(MediaType.APPLICATION_JSON)
     @Operation(summary = "List all Users", description = "")

@@ -23,6 +23,11 @@ public class UserService {
     public UserService() {
     }
 
+    
+    /** 
+     * @param user
+     * @return int
+     */
     @Transactional 
     public int signupUser(User user) {
 
@@ -39,6 +44,11 @@ public class UserService {
         
     }
 
+    
+    /** 
+     * @param myToken
+     * @return int
+     */
     @Transactional 
     public int checkIfLoggedIn(String myToken) {
         System.out.println(myToken);
@@ -57,6 +67,11 @@ public class UserService {
         return -1;
     }
 
+    
+    /** 
+     * @param u
+     * @return Response
+     */
     @Transactional
     public Response loginUser(User u) {
         List<User> users = findAll();
@@ -87,12 +102,21 @@ public class UserService {
         .build();
     }
 
+    
+    /** 
+     * @return List<User>
+     */
     @SuppressWarnings("unchecked")
     public List<User> findAll() {
         var query = entityManager.createQuery("FROM User");
         return query.getResultList();
     }
 
+    
+    /** 
+     * @param g
+     * @return boolean
+     */
     public boolean isGenderValid(Gender g) {
         String string = g.getGender();
         for (int i = 0; i < string.length(); i++) {

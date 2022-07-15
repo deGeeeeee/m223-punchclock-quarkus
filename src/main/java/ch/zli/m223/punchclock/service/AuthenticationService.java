@@ -12,6 +12,11 @@ import org.eclipse.microprofile.jwt.Claims;
 @RequestScoped
 public class AuthenticationService {
     
+    
+    /** 
+     * @param username
+     * @return String
+     */
     public String GenerateValidJwtToken(String username){
         String token =
             Jwt.issuer("https://zli.ch/issuer") 

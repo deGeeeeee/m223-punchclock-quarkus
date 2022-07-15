@@ -18,6 +18,11 @@ public class CategoryService {
     public CategoryService() {
     }
 
+    
+    /** 
+     * @param name
+     * @return Category
+     */
     @Transactional 
     public Category createCategory(String name) {
         Category category = new Category();
@@ -26,6 +31,10 @@ public class CategoryService {
         return category;
     }
 
+    
+    /** 
+     * @return List<Category>
+     */
     @SuppressWarnings("unchecked")
     public List<Category> findAll() {
         var query = entityManager.createQuery("FROM Category");

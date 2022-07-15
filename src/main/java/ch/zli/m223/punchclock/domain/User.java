@@ -30,46 +30,92 @@ public class User {
     private List<Entry> entries;
 
 
+    
+    /** 
+     * @return Long
+     */
     public Long getId() {
         return id;
     }
 
+    
+    /** 
+     * @param id
+     */
     public void setId(Long id) {
         this.id = id;
     }
 
+    
+    /** 
+     * @return String
+     */
     public String getUsername() {
         return username;
     }
 
+    
+    /** 
+     * @param username
+     */
     public void setUsername(String username) {
         this.username = username;
     }
 
+    
+    /** 
+     * @return Gender
+     */
     public Gender getGender() {
         return gender;
     }
 
+    
+    /** 
+     * @param gender
+     */
     public void setGender(Gender gender) {
         this.gender = gender;
     }
 
+    
+    /** 
+     * @return String
+     */
     public String getGenderString() {
         return genderString;
     }
 
+    
+    /** 
+     * @param genderString
+     */
     public void setGenderString(String genderString) {
         this.genderString = genderString;
     }
 
+    
+    /** 
+     * @return String
+     */
     public String getPassword() {
         return password;
     }
 
+    
+    /** 
+     * @param password
+     */
     public void setPassword(String password) {
         this.password = password;
     }
 
+    
+    /** 
+     * @param username
+     * @param password
+     * @param gender
+     */
     public void createUser(String username, String password, String gender) {
 
         this.username = username;
