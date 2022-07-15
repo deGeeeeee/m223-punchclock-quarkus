@@ -1,0 +1,144 @@
+commit d25c64cc4e53464f949a65513b2c7ac4c15f6397
+Author: Your Name <youremail@yourdomain.com>
+Date:   Fri Jul 15 15:37:22 2022 +0200
+
+    resources
+
+commit 351180caa0a00f1621efe4f665742f851151df5e
+Author: Your Name <youremail@yourdomain.com>
+Date:   Fri Jul 15 15:36:22 2022 +0200
+
+    service
+
+commit 4f03514279b1edbaba4230d43894dd37fed23fe0
+Author: Your Name <youremail@yourdomain.com>
+Date:   Fri Jul 15 15:35:02 2022 +0200
+
+    domain
+
+commit 9ba8d006e499c9120f9fa77f279eae6c7f12e79f
+Author: Your Name <youremail@yourdomain.com>
+Date:   Fri Jul 15 15:32:04 2022 +0200
+
+    controller
+
+commit 884fdfab955e3bbe69304ebbf2a6c117a4f99899
+Author: Your Name <youremail@yourdomain.com>
+Date:   Fri Jul 15 15:28:07 2022 +0200
+
+    initial commit
+
+commit d94f7e6e5ea260429ef262b553e9aeec19289ae6
+Author: Robin Bühler <git+r@obin.ch>
+Date:   Wed Jul 13 07:41:04 2022 +0000
+
+    fix: surpressed typing error in entry service
+
+commit 40be3e8a41a3fc18b34749b53169e2abb78d4c5c
+Author: Robin Bühler <git+r@obin.ch>
+Date:   Wed Jul 13 07:37:46 2022 +0000
+
+    feat: add executable rights to mvnw
+
+commit 1fc3854d79ceec78d91ca8e04d19683073f12576
+Author: Robin Bühler <git+r@obin.ch>
+Date:   Wed Jul 13 07:36:51 2022 +0000
+
+    feat: enhance gitignore
+
+commit e785bd20061c1ecfb6e9cf43b43b78aec4c0ab95
+Author: Robin Bühler <git+r@obin.ch>
+Date:   Wed Jul 13 07:35:25 2022 +0000
+
+    feat: add quarkus extension
+
+commit 386745ffc23e0cf52d107fb42e1dbc2b4c0e8ca4
+Author: Robin Bühler <git+r@obin.ch>
+Date:   Wed Jul 13 07:32:03 2022 +0000
+
+    feat: add dev container definitions
+
+commit 6e49cdf93052a96050590343db7c05b0ec595ead
+Author: florianbosshard <florian.bosshard@gmail.com>
+Date:   Thu Sep 16 14:00:51 2021 +0200
+
+    Fix typos and path
+
+commit 86b662ec427f7939f3766e7faf41a060fe65bc32
+Merge: 0d3a101 68e607f
+Author: florianbosshard <florian.bosshard@gmail.com>
+Date:   Wed Sep 15 19:26:06 2021 +0200
+
+    Merge pull request #2 from zlict/localJwtAuth
+    
+    Add Auth
+
+commit 68e607f766d4d9c36018e91f40553a0d5de3d259
+Merge: 03a3340 0d3a101
+Author: Florian Bosshard <florian.bosshard@gmail.com>
+Date:   Wed Sep 15 19:24:18 2021 +0200
+
+    Merge branch 'main' into localJwtAuth
+
+commit 03a334066e3562582ef4b5c244b59164ffbd3618
+Author: Florian Bosshard <florian.bosshard@gmail.com>
+Date:   Wed Sep 15 19:20:00 2021 +0200
+
+    simplified local authentication
+
+commit 0d3a1015c41c5799b16ece6dd8204c58b63334a6
+Merge: edd742c 853da8f
+Author: florianbosshard <florian.bosshard@gmail.com>
+Date:   Wed Sep 15 18:43:42 2021 +0200
+
+    Merge pull request #1 from zlict/h2Console
+    
+    add h2 console
+
+commit 853da8feec960645ccc5465f76b3b1f00b67b1ee
+Author: Florian Bosshard <florian.bosshard@gmail.com>
+Date:   Thu Sep 9 20:53:38 2021 +0200
+
+    add h2 console
+
+commit aa6ecbb2e6812787b31c736d5b07b6426ab45cc4
+Author: Florian Bosshard <florian.bosshard@gmail.com>
+Date:   Tue Sep 7 21:43:59 2021 +0200
+
+    add some comments for openapi / swagger
+
+commit 852aa56ec4e5940335a390e8aad1d3552b287661
+Author: Florian Bosshard <florian.bosshard@gmail.com>
+Date:   Tue Sep 7 21:15:46 2021 +0200
+
+    add example controller for generating a jwt token
+
+commit 7802d6882a30cc29a4ef5e211d64c4b2d4790d46
+Author: Florian Bosshard <florian.bosshard@gmail.com>
+Date:   Tue Sep 7 20:40:13 2021 +0200
+
+    added local JWT auth
+
+commit edd742c91f20a863d868f5725cf31f1cac7aae72
+Author: Florian Bosshard <florian.bosshard@gmail.com>
+Date:   Wed Sep 1 22:20:06 2021 +0200
+
+    add maven wrapper
+
+commit 33f51b61f94ebcaa1998dd056b0819d33096b162
+Author: Florian Bosshard <florian.bosshard@gmail.com>
+Date:   Tue Aug 31 22:35:55 2021 +0200
+
+    Initial Application
+
+commit 79b22913a4b9c1e48bd72e59fd4c24d0b51f7870
+Author: Florian Bosshard <florian.bosshard@gmail.com>
+Date:   Tue Aug 31 22:35:09 2021 +0200
+
+    Initial verison
+
+commit f843a2f40f08694f1a21166b304e4aa18cd64d44
+Author: florianbosshard <florian.bosshard@gmail.com>
+Date:   Tue Aug 31 20:08:13 2021 +0200
+
+    Initial commit
